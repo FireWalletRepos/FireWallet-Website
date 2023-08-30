@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Text } from '@chakra-ui/react'
 import { HStack } from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-
+import Typewriter from 'typewriter-effect';
 
 
 export default function Home() {
@@ -32,9 +32,19 @@ export default function Home() {
         <div>
           <div className={styles.titleBox}>
             <div>
-              <Text>
-                Changing The Future
-              </Text>
+              <div>
+                <Text>web3</Text>
+              </div>
+            
+            <div>
+              <Typewriter
+                  options={{
+                    strings: ['wallets re-defined', 'security re-defined', 'tokens re-defined', 'algorithms re-defined'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div>
             </div>
             <div>
               <Text>Images of Chrome Extension</Text>
