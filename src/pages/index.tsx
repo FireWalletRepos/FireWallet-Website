@@ -9,6 +9,9 @@ import Typewriter from 'typewriter-effect';
 import {AiFillChrome} from 'react-icons/ai'
 
 
+
+
+
 export default function Home() {
 
   const scrollDown = () => {
@@ -123,6 +126,43 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
                 <Text>Video</Text>
               </div>
             </Center>
+          </div>
+
+          <div style={{display:'flex', padding:'30px'}}>
+            <div style={{width: '70%'}}>
+              <Center>
+              <div style={{color: '#F08080', width:'320px', marginLeft:'70px'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Get</Text> <br />
+                <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Started</Text> <br />
+                <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Today</Text>
+                
+          
+
+              </div>
+              </Center>
+
+            </div>
+            <div style={{padding: '30px', marginTop: '80px'}}>
+
+              <div style={{textAlign:'center'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Download For Any Browser that Supports Chrome Extensions.</Text>
+              </div>
+
+              <Center>
+              <div className={styles.downloadButton}>
+                <button>
+                  <div style={{display: 'flex'}}>
+                    <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Download for </Text>
+                    <div style={{marginLeft:'12px', fontSize:'40px', marginTop:'4px'}}>
+                     <AiFillChrome />
+                    </div>
+                  </div>
+                </button>
+              </div>
+              </Center>
+            </div>
+
+            
           </div>
 
 
