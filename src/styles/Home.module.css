@@ -8,7 +8,23 @@
 }
 
 .titleBox {
-  background-color: #F08080;
+  background: linear-gradient(#ffffff, #f29696);
   height: 700px;
   display: flex;
+}
+
+.introTextBox {
+  width: 52%;
+  padding: 30px;
+}
+
+.downloadButton {
+  background-color: #ffe5d9;
+  margin-top: 5%;
+  height:50px;
+  border-radius: 20px;
+  width: 280px;
+  text-align: left;
+  padding-left: 20px;
+  box-shadow: 0 0 100px 15px #ffe5d9;
 }
