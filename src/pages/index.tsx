@@ -4,9 +4,10 @@ import Image from 'next/image'
 import { Divider, Text, Center } from '@chakra-ui/react'
 import { Tabs, TabList, Tab, } from '@chakra-ui/react'
 import Typewriter from 'typewriter-effect';
+import { HStack, VStack } from '@chakra-ui/react';
 
 
-import {AiFillChrome} from 'react-icons/ai'
+import {AiFillChrome, AiFillGithub, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
 
 
 
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <div>
         <div style={{display:'flex'}}>
-            <div style={{padding:'10px', paddingLeft:'20px'}}>
+            <div style={{padding:'10px', paddingLeft:'39px'}}>
               <Text as='b' fontFamily={'sans-serif'} fontSize={40}>FireWallet</Text>
             </div>
             <div style={{marginTop:'10px'}}>
@@ -166,7 +167,7 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
               </Center>
 
             </div>
-            <div style={{padding: '30px', marginTop: '80px'}}>
+            <div style={{padding: '30px', marginTop: '60px', marginBottom:'200px'}}>
 
               <div style={{textAlign:'center'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Download For Any Browser that Supports Chrome Extensions.</Text>
@@ -189,9 +190,55 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
             
           </div>
 
+          <hr />
 
+          <div>
+
+          </div>
+          <div>
+            <Center>
+              <HStack spacing='400px'>
+                <VStack spacing='4'>
+                  <div>
+                    <div>
+                      <Text fontFamily={'sans-serif'} fontSize={20}>@2023 FireWallet</Text>
+                    </div>
+                    <div>
+                      <Text>Made by Jaival Patel with ❤️</Text>
+                    </div>
+                  </div>
+                </VStack>
+                <VStack align='stretch' spacing='4'>
+                  <div style={{marginTop:'10px'}}>
+                    <Text fontFamily={'sans-serif'} fontSize={20}>Discover</Text>
+                  </div>
+                  <Text fontFamily={'sans-serif'} fontSize={20}>Docs</Text>
+                  <Text fontFamily={'sans-serif'} fontSize={20}>Download</Text>
+                </VStack>
+                <HStack>
+                  <div style={{fontSize:'40px'}}>
+                    <button>
+                      <AiFillGithub />
+                    </button>
+                  </div>
+                  <div style={{fontSize:'40px'}}>
+                    <button>
+                      <AiOutlineTwitter />
+                    </button>
+                  </div>
+                  <div style={{fontSize:'40px'}}>
+                    <button>
+                      <AiFillLinkedin />
+                    </button>
+                  </div>
+                </HStack>
+                
+              </HStack>
+            </Center>
+          </div>
 
         </div>
+        
       
 
     </div>
