@@ -1,10 +1,10 @@
 
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
-import { Divider, Text } from '@chakra-ui/react'
+import { Divider, Text, Center } from '@chakra-ui/react'
 import { Tabs, TabList, Tab, } from '@chakra-ui/react'
 import Typewriter from 'typewriter-effect';
-import { Highlight } from '@chakra-ui/react'
+
 
 import {AiFillChrome} from 'react-icons/ai'
 
@@ -79,9 +79,50 @@ export default function Home() {
           </div>
           
           <div style={{display:'flex'}}>
-            <div>
-              <Text>Beyond Cryptographic Hashing</Text>
+            <div className={styles.beyondhashingbox}>
+              <div style={{color: '#F08080'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Beyond Cryptographic Hashing.</Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'30px', display: 'inline-block'}}>
+                <Text>Lorem ipsum dolor sit amet, fierent iracundia qui ad. Vel ex molestiae rationibus, te stet aliquip scriptorem vis. An agam deserunt theophrastus his. Pri et probo autem molestie. Cum no erant dicant, ea sit noluisse accusata, ludus doctus accusamus ad mea.
+
+Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodesset eum in. Sed no quem laboramus conceptam, duo lorem tation perfecto ei. Ut falli dicunt est, ut pri blandit efficiendi adversarium. No probo equidem est.</Text>
+              </div>
             </div>
+            <div>
+              <Text>Image</Text>
+            </div>
+          </div>
+          
+          <div style={{display:'flex'}}>
+            <div style={{width:'48%'}}>
+              <Text>Image</Text>
+            </div>
+            <div style={{padding:'30px'}}>
+              <div style={{color: '#F08080'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>All of Ethereum Right to You.</Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'30px', display: 'inline-block'}}>
+                <Text>Lorem ipsum dolor sit amet, fierent iracundia qui ad. Vel ex molestiae rationibus, te stet aliquip scriptorem vis. An agam deserunt theophrastus his. Pri et probo autem molestie. Cum no erant dicant, ea sit noluisse accusata, ludus doctus accusamus ad mea.
+
+Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodesset eum in. Sed no quem laboramus conceptam, duo lorem tation perfecto ei. Ut falli dicunt est, ut pri blandit efficiendi adversarium. No probo equidem est.</Text>
+              </div>
+            </div>
+
+          </div>
+
+          <div className={styles.videoBox}>
+            <Center>
+              <div style={{padding: '30px', color:'#6d6875'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={50}>Walkthrough</Text>
+              </div>
+
+            </Center>
+            <Center>
+              <div style={{height:'500px', width:'1000px', border: '2px solid black'}}>
+                <Text>Video</Text>
+              </div>
+            </Center>
           </div>
 
 

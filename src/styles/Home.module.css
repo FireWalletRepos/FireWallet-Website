@@ -14,7 +14,7 @@
 }
 
 .introTextBox {
-  width: 52%;
+  width: 60%;
   padding: 30px;
 }
 
@@ -27,4 +27,17 @@
   text-align: left;
   padding-left: 20px;
   box-shadow: 0 0 100px 15px #ffe5d9;
+}
+
+.beyondhashingbox {
+  width: 52%;
+  padding: 30px;
+}
+
+.videoBox {
+  background: #F4978E ;
+  height: 700px;
+
+
+
 }
