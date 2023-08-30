@@ -128,7 +128,31 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
             </Center>
           </div>
 
-          <div style={{display:'flex', padding:'30px'}}>
+          <div style={{display:'flex', marginTop:'20px'}}>
+            <div style={{width:'48%'}}>
+              <Text>Image</Text>
+            </div>
+            <div style={{padding:'30px'}}>
+              <div style={{color: '#F08080'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Learn</Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'60px', display: 'inline-block'}}>
+              <div>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Check out the Docs to learn everything about FireWallet.</Text>
+              </div>
+              <div style={{marginTop:'15px', textAlign: 'center'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>From learning about FireWallet's Protocols to all its Features, the docs has an answer for all.</Text>
+              </div>
+
+              </div>
+
+              
+            </div>
+
+          </div> 
+
+
+          <div style={{display:'flex', padding:'30px', marginTop:'150px'}}>
             <div style={{width: '70%'}}>
               <Center>
               <div style={{color: '#F08080', width:'320px', marginLeft:'70px'}}>
