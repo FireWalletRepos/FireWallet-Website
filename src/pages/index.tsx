@@ -50,7 +50,7 @@ export default function Home() {
               <Text as='b' fontFamily={'sans-serif'} fontSize={120}>Ethereum</Text>
               </div>
             
-              <div style={{fontSize:"90px", color:'#b5838d', fontFamily: "Euclid Circular B, sans-serif"}}>
+              <div style={{fontSize:"70px", color:'#b5838d', fontFamily: "Euclid Circular B, sans-serif"}}>
 
                 <Text as='b'>
                 <Typewriter
@@ -77,9 +77,25 @@ export default function Home() {
               </div>
 
             </div>
+            <Center>
             <div>
-              <Text>Images of Chrome Extension</Text>
+              <HStack spacing= '-20px'>
+                <div style={{boxShadow: '0 0 90px 1px white'}}>
+                <Image src="/Image2.png" width={300} height={300} alt="FireWallet logo"/>
+                </div>
+                <div style={{zIndex: '3', boxShadow: '0 0 90px 15px #ECECEC'}}>
+                  <Image src="/Image1.png" width={380} height={380} alt="FireWallet logo"/>
+                </div>
+                <div style={{marginRight:'100px', boxShadow: '0 0 90px 1px white'}}>
+                  <Image src="/Image9.png" width={300} height={300} alt="FireWallet logo"/>
+                </div>
+                
+
+                
+              </HStack>
+              
             </div>
+            </Center>
           </div>
           
           <div style={{display:'flex'}}>
