@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 import { HStack, VStack } from '@chakra-ui/react';
 
 
-import {AiFillChrome, AiFillGithub, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
+import {AiOutlineChrome, AiFillGithub, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
 
 
 
@@ -69,8 +69,8 @@ export default function Home() {
                 <button>
                   <div style={{display: 'flex'}}>
                     <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Download for </Text>
-                    <div style={{marginLeft:'12px', fontSize:'40px', marginTop:'4px'}}>
-                     <AiFillChrome />
+                    <div style={{marginLeft:'10px', fontSize:'40px', marginTop:'1px'}}>
+                     <AiOutlineChrome />
                     </div>
                   </div>
                 </button>
@@ -109,15 +109,30 @@ export default function Home() {
 Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodesset eum in. Sed no quem laboramus conceptam, duo lorem tation perfecto ei. Ut falli dicunt est, ut pri blandit efficiendi adversarium. No probo equidem est.</Text>
               </div>
             </div>
-            <div>
-              <Text>Image</Text>
+            
+            <div style={{marginLeft:'180px', marginTop: '50px', boxShadow: '0 0 90px 25px #ECECEC'}}>
+                  <Image src="/Image5.png" width={300} height={300} alt="FireWallet logo"/>
             </div>
+              
+
           </div>
           
           <div style={{display:'flex'}}>
-            <div style={{width:'48%'}}>
-              <Text>Image</Text>
+            <div>
+              <HStack spacing='1px'>
+
+                <div style={{marginTop: '50px', marginLeft: '50px', boxShadow: '0 0 90px 1px #ECECEC'}}>
+                      <Image src="/Image9.png" width={280} height={280} alt="FireWallet logo"/>
+                </div>
+                <div style={{marginTop: '50px', zIndex: '3', boxShadow: '0 0 90px 25px #ECECEC'}}>
+                      <Image src="/Image4.png" width={300} height={300} alt="FireWallet logo"/>
+                </div>
+                <div style={{marginTop: '50px',  boxShadow: '0 0 90px 1px #ECECEC'}}>
+                      <Image src="/Image10.png" width={280} height={280} alt="FireWallet logo"/>
+                </div>
+              </HStack>
             </div>
+            
             <div style={{padding:'30px'}}>
               <div style={{color: '#F08080'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>All of Ethereum Right to You.</Text>
@@ -146,10 +161,21 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
           </div>
 
           <div style={{display:'flex', marginTop:'20px'}}>
-            <div style={{width:'48%'}}>
-              <Text>Image</Text>
+            <div style={{marginLeft:'250px', marginTop: '40px', background: 'white', boxShadow: '4px 4px 10px gray', borderRadius: '12px', paddingBottom: '60px', padding:'30px', paddingLeft:'50px', paddingRight:'60px', position: 'relative'}}>
+              <Center>
+              <div style={{boxShadow: '1px 4px 5px gray', marginTop:'20px'}}>
+                      <Image src="/Image8.png" width={300} height={300} alt="FireWallet logo"/>
+              </div>
+              </Center>
+              <div className={styles.docsButton}>
+                <button>
+                  <Text as='b' fontFamily={'sans-serif'} fontSize={20}>Docs {'>'}{'>'} </Text>
+                </button>
+              </div>
+
             </div>
-            <div style={{padding:'30px'}}>
+
+            <div style={{padding:'30px', marginLeft:'10%'}}>
               <div style={{color: '#F08080'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Learn</Text>
               </div>
@@ -194,8 +220,8 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
                 <button>
                   <div style={{display: 'flex'}}>
                     <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Download for </Text>
-                    <div style={{marginLeft:'12px', fontSize:'40px', marginTop:'4px'}}>
-                     <AiFillChrome />
+                    <div style={{marginLeft:'10px', fontSize:'40px', marginTop:'1px'}}>
+                     <AiOutlineChrome />
                     </div>
                   </div>
                 </button>
