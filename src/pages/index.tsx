@@ -148,7 +148,7 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
 
           <div className={styles.videoBox}>
             <Center>
-              <div style={{padding: '30px', color:'#6d6875'}}>
+              <div style={{padding: '30px', color:'black'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={50}>Walkthrough</Text>
               </div>
 
@@ -179,7 +179,7 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
               <div style={{color: '#F08080'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={90}>Learn</Text>
               </div>
-              <div style={{width: '600px', lineHeight:'60px', display: 'inline-block'}}>
+              <div style={{width: '600px', lineHeight:'50px', display: 'inline-block'}}>
               <div>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Check out the Docs to learn everything about FireWallet.</Text>
               </div>
