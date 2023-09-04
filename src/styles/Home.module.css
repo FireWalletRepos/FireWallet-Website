@@ -59,14 +59,16 @@
 
 
 .beyondhashingbox {
-  width: 52%;
+  width: 50%;
   padding: 30px;
+  margin-right: 100px;
 }
 
 .videoBox {
   background: #F4978E ;
-  height: 700px;
-  margin-top: 30px;
+  height: 750px;
+  margin-top: 70px;
+
 
 
 

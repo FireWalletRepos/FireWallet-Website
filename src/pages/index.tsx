@@ -98,21 +98,29 @@ export default function Home() {
             </Center>
           </div>
           
-          <div style={{display:'flex'}}>
+          <div style={{display:'flex', marginLeft:'200px'}}>
             <div className={styles.beyondhashingbox}>
               <div style={{color: '#F08080'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Beyond Cryptographic Hashing.</Text>
               </div>
-              <div style={{width: '600px', lineHeight:'30px', display: 'inline-block'}}>
-                <Text>Lorem ipsum dolor sit amet, fierent iracundia qui ad. Vel ex molestiae rationibus, te stet aliquip scriptorem vis. An agam deserunt theophrastus his. Pri et probo autem molestie. Cum no erant dicant, ea sit noluisse accusata, ludus doctus accusamus ad mea.
-
-Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodesset eum in. Sed no quem laboramus conceptam, duo lorem tation perfecto ei. Ut falli dicunt est, ut pri blandit efficiendi adversarium. No probo equidem est.</Text>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}> FireWallet is the first wallet with its unique security protocol on top of Ethereum's cryptography to protect users from the <Text as='b'>"spam-transaction"</Text> attack. </Text>
+          
+              </div>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>The embedded partioning process protects user's bigger wallets by "hiding" them not only on the Polygon chain, but also by value. The protocol creates hidden sub-wallets linked to the main wallet, and runs a partioning tree-algorithm that sends some amount of tokens to one random wallet from every set of two nodes such that all wallets (including the main) all seem to have the same overall value of <Text as='b'>{'<'}1 ETH</Text>.</Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>Attackers will be discouraged from attacking as each wallet appears to have <Text as='b'>{'<'}1 ETH</Text> rendering it useless to deplete. If the attacker does deplete tokens from one of the wallets (including the user's main wallet), not all of their tokens that they originally had would be gone, but rather only a small fraction of them that was sent from the main wallet through the graph-algorithm - protecting on average <Text as='b'>97% </Text>of the original tokens of the user. </Text>
               </div>
             </div>
-            
-            <div style={{marginLeft:'180px', marginTop: '50px', boxShadow: '0 0 90px 25px #ECECEC'}}>
-                  <Image src="/Image5.png" width={300} height={300} alt="FireWallet logo"/>
+            <div>
+              <div style={{marginLeft:'10px', marginTop: '70px', boxShadow: '0 0 90px 25px #ECECEC'}}>
+                    <Image src="/Image5.png" width={400} height={400} alt="FireWallet logo"/>
+              </div>
+
             </div>
+
               
 
           </div>
@@ -122,25 +130,29 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
               <HStack spacing='1px'>
 
                 <div style={{marginTop: '50px', marginLeft: '50px', boxShadow: '0 0 90px 1px #ECECEC'}}>
-                      <Image src="/Image9.png" width={280} height={280} alt="FireWallet logo"/>
+                      <Image src="/Image11.png" width={880} height={880} alt="FireWallet logo"/>
                 </div>
                 <div style={{marginTop: '50px', zIndex: '3', boxShadow: '0 0 90px 25px #ECECEC'}}>
-                      <Image src="/Image4.png" width={300} height={300} alt="FireWallet logo"/>
+                      <Image src="/Image4.png" width={900} height={900} alt="FireWallet logo"/>
                 </div>
                 <div style={{marginTop: '50px',  boxShadow: '0 0 90px 1px #ECECEC'}}>
-                      <Image src="/Image10.png" width={280} height={280} alt="FireWallet logo"/>
+                      <Image src="/Image10.png" width={880} height={880} alt="FireWallet logo"/>
                 </div>
               </HStack>
             </div>
             
-            <div style={{padding:'30px'}}>
+            <div style={{padding:'30px', marginLeft: '60px', marginTop: '50px'}}>
               <div style={{color: '#F08080'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>All of Ethereum Right to You.</Text>
               </div>
-              <div style={{width: '600px', lineHeight:'30px', display: 'inline-block'}}>
-                <Text>Lorem ipsum dolor sit amet, fierent iracundia qui ad. Vel ex molestiae rationibus, te stet aliquip scriptorem vis. An agam deserunt theophrastus his. Pri et probo autem molestie. Cum no erant dicant, ea sit noluisse accusata, ludus doctus accusamus ad mea.
-
-Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodesset eum in. Sed no quem laboramus conceptam, duo lorem tation perfecto ei. Ut falli dicunt est, ut pri blandit efficiendi adversarium. No probo equidem est.</Text>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>Fetch recent Ethereum data including the top NFTs and ERC20 tokens right at your finger tips. </Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop:'20px'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>FireWallet updates external sources and courses about web3 development, cryptography, and Ethereum in general for users to expand their web3 brain. </Text>
+              </div>
+              <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={20}>FireWallet reduces the number of sites the user has to visit to fetch recent Ethereum-related information by <Text as='b'>{'>'}5</Text> times on average.  </Text>
               </div>
             </div>
 
@@ -162,10 +174,10 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
           </div>
 
           <div style={{display:'flex', marginTop:'20px'}}>
-            <div style={{marginLeft:'250px', marginTop: '40px', background: 'white', boxShadow: '4px 4px 10px gray', borderRadius: '12px', paddingBottom: '60px', padding:'30px', paddingLeft:'50px', paddingRight:'60px', position: 'relative'}}>
+            <div style={{marginLeft:'250px', marginTop: '40px', background: 'white', boxShadow: '4px 4px 10px gray', borderRadius: '12px', paddingBottom: '80px', padding:'40px', paddingLeft:'50px', paddingRight:'60px', position: 'relative'}}>
               <Center>
               <div style={{boxShadow: '1px 4px 5px gray', marginTop:'20px'}}>
-                      <Image src="/Image8.png" width={300} height={300} alt="FireWallet logo"/>
+                      <Image src="/Image8.png" width={350} height={350} alt="FireWallet logo"/>
               </div>
               </Center>
               <div className={styles.docsButton}>
@@ -185,7 +197,7 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Check out the Docs to learn everything about FireWallet.</Text>
               </div>
               <div style={{marginTop:'15px', textAlign: 'left'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}>From learning about FireWallet's Partition Protocols to all its Features, the docs has an answer for all. The source also links tutorials, resources, and bug fixes that the user may run into. </Text>
+                <Text fontFamily={'sans-serif'} fontSize={20}>From learning about FireWallet's Partition Protocols to all its Features, the docs has an answer for all - The docs also links tutorials, resources, and bug fixes that the user may run into. </Text>
               </div>
               <Center>
                 <div style={{marginTop: '30px'}}>
