@@ -104,18 +104,19 @@ export default function Home() {
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Beyond Cryptographic Hashing.</Text>
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}> FireWallet is the first wallet with its unique security protocol on top of Ethereum's cryptography to protect users from the <Text as='b'>"spam-transaction"</Text> attack. </Text>
+                <Text fontFamily={'sans-serif'} fontSize={20}> FireWallet is an innovative Ethereum wallet designed to safeguard users against spam-transaction attacks. It employs a unique security protocol that partitions larger wallets, concealing them both on the Polygon chain and in terms of their value. </Text>
           
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}>The embedded partioning process protects user's bigger wallets by "hiding" them not only on the Polygon chain, but also by value. The protocol creates hidden sub-wallets linked to the main wallet, and runs a partioning tree-algorithm that sends some amount of tokens to one random wallet from every set of two nodes such that all wallets (including the main) all seem to have the same overall value of <Text as='b'>{'<'}1 ETH</Text>.</Text>
+                  <Text fontFamily={'sans-serif'} fontSize={20}>FireWallet's Partioning Protocol generates hidden sub-wallets connected to the main wallet and employs a partitioning tree algorithm to distribute tokens randomly among wallets, giving the appearance that they all hold <Text as='b'>{'<'}1 ETH</Text>.</Text>
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}>Attackers will be discouraged from attacking as each wallet appears to have <Text as='b'>{'<'}1 ETH</Text> rendering it useless to deplete. If the attacker does deplete tokens from one of the wallets (including the user's main wallet), not all of their tokens that they originally had would be gone, but rather only a small fraction of them that was sent from the main wallet through the graph-algorithm - protecting on average <Text as='b'>97% </Text>of the original tokens of the user. </Text>
+                <Text fontFamily={'sans-serif'} fontSize={20}>This approach discourages attackers, as each wallet seems to contain only a minimal amount of ETH, making it an unattractive target for depletion. Even if an attacker does target one of user's the wallets, only a small fraction of the original tokens sent through the algorithm is at risk, safeguarding <Text as='b'>97%</Text> of the user's original tokens.</Text>
               </div>
+
             </div>
             <div>
-              <div style={{marginLeft:'10px', marginTop: '70px', boxShadow: '0 0 90px 25px #ECECEC'}}>
+              <div style={{marginLeft:'10px', marginTop: '40px', boxShadow: '0 0 90px 25px #ECECEC'}}>
                     <Image src="/Image5.png" width={400} height={400} alt="FireWallet logo"/>
               </div>
 
@@ -152,7 +153,7 @@ export default function Home() {
                 <Text fontFamily={'sans-serif'} fontSize={20}>FireWallet updates external sources and courses about web3 development, cryptography, and Ethereum in general for users to expand their web3 brain. </Text>
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
-                <Text as='b' fontFamily={'sans-serif'} fontSize={20}>FireWallet reduces the number of sites the user has to visit to fetch recent Ethereum-related information by <Text as='b'>{'>'}5</Text> times on average.  </Text>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={20}>FireWallet reduces the number of sites the user has to visit to fetch recent Ethereum-related information by <Text as='b'>{'>'}5</Text> on average.  </Text>
               </div>
             </div>
 
