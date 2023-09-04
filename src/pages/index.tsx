@@ -184,9 +184,14 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
               <div>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Check out the Docs to learn everything about FireWallet.</Text>
               </div>
-              <div style={{marginTop:'15px', textAlign: 'center'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}>From learning about FireWallet's Protocols to all its Features, the docs has an answer for all.</Text>
+              <div style={{marginTop:'15px', textAlign: 'left'}}>
+                <Text fontFamily={'sans-serif'} fontSize={20}>From learning about FireWallet's Partition Protocols to all its Features, the docs has an answer for all. The source also links tutorials, resources, and bug fixes that the user may run into. </Text>
               </div>
+              <Center>
+                <div style={{marginTop: '30px'}}>
+                  <Text as='b' fontFamily={'sans-serif'} fontSize={20}>The Docs will be Coming Soon!</Text>
+                </div>
+              </Center>
 
               </div>
 
