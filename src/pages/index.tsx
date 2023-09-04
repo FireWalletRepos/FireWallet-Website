@@ -148,14 +148,15 @@ Quo an velit noster torquatos, ius vocent instructior no, ridens graecis prodess
 
           <div className={styles.videoBox}>
             <Center>
-              <div style={{padding: '30px', color:'black'}}>
+              <div style={{padding: '10px', color:'black'}}>
                 <Text as='b' fontFamily={'sans-serif'} fontSize={50}>Walkthrough</Text>
               </div>
 
             </Center>
             <Center>
-              <div style={{height:'500px', width:'1000px', border: '2px solid black'}}>
-                <Text>Video</Text>
+              <div style={{height:'600px', width:'1300px', border: '2px solid black'}}>
+                <div style={{position: "relative", paddingBottom: "64.63195691202873%", height: "0"}}>
+                  <iframe src="https://www.loom.com/embed/6d0cf87793e7448280fc9fed499590ef?sid=00e2e944-7229-40a6-9c14-17dca0e9cb56" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: "absolute", top: '0', left: "0", width: "1300px", height: "600px"}}></iframe></div>
               </div>
             </Center>
           </div>
