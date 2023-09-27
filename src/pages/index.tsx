@@ -108,10 +108,10 @@ export default function Home() {
           
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
-                  <Text fontFamily={'sans-serif'} fontSize={20}>FireWallet's Partioning Protocol generates hidden sub-wallets connected to the main wallet and employs a partitioning tree algorithm to distribute tokens randomly among wallets, giving the appearance that they all hold <Text as='b'>{'<'}1 ETH</Text>.</Text>
+                  <Text fontFamily={'sans-serif'} fontSize={20}>FireWallet`&apos;` Partioning Protocol generates hidden sub-wallets connected to the main wallet and employs a partitioning tree algorithm to distribute tokens randomly among wallets, giving the appearance that they all hold <Text as='b'>{'<'}1 ETH</Text>.</Text>
               </div>
               <div style={{width: '600px', lineHeight:'40px', display: 'inline-block', marginTop: '20px'}}>
-                <Text fontFamily={'sans-serif'} fontSize={20}>This approach discourages attackers, as each wallet seems to contain only a minimal amount of ETH, making it an unattractive target for depletion. Even if an attacker does target one of user's the wallets, only a small fraction of the original tokens sent through the algorithm is at risk, safeguarding <Text as='b'>97%</Text> of the user's original tokens.</Text>
+                <Text fontFamily={'sans-serif'} fontSize={20}>This approach discourages attackers, as each wallet seems to contain only a minimal amount of ETH, making it an unattractive target for depletion. Even if an attacker does target one of user`&apos;` the wallets, only a small fraction of the original tokens sent through the algorithm is at risk, safeguarding <Text as='b'>97%</Text> of the user`&apos;` original tokens.</Text>
               </div>
 
             </div>
@@ -170,7 +170,7 @@ export default function Home() {
             </Center>
             <Center>
               <div style={{padding: '10px', color:'#6D6875', marginBottom: '20px'}}>
-                <Text as='b' fontFamily={'sans-serif'} fontSize={18}>Note: "Amount in USD" conversion feature is now live :) as upon Sept 4th 12:00 AM EST</Text>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={18}>Note: `&quot;`Amount in USD`&quot;` conversion feature is now live :) as upon Sept 4th 12:00 AM EST</Text>
               </div>
             </Center>
             <Center>
