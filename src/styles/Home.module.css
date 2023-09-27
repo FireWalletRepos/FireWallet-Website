@@ -25,7 +25,7 @@
   height:50px;
   border-radius: 20px;
   width: 280px;
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
   animation: color 2s ease infinite;
 }
@@ -56,6 +56,10 @@
    }
 }
 
+.downloadButton:hover {
+  transform: scale(1.1);
+}
+
 
 
 .beyondhashingbox {
@@ -66,7 +70,7 @@
 
 .videoBox {
   background: #F4978E ;
-  height: 750px;
+  height: 800px;
   margin-top: 70px;
 
 

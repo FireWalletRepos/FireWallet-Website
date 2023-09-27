@@ -1,7 +1,7 @@
 
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
-import { Divider, Text, Center } from '@chakra-ui/react'
+import { Divider, Text, Center, AbsoluteCenter } from '@chakra-ui/react'
 import { Tabs, TabList, Tab, } from '@chakra-ui/react'
 import Typewriter from 'typewriter-effect';
 import { HStack, VStack } from '@chakra-ui/react';
@@ -36,7 +36,7 @@ export default function Home() {
                 <TabList>
                   <Tab onClick={() => console.log("Clicked")}>Discover</Tab>
                   <Tab>Docs</Tab>
-                  <Tab>Download</Tab>
+                  <Tab onClick={() => window.location.replace('https://twitter.com/patjaival')}>Onboard</Tab>
                 </TabList>
               </Tabs>
             </div>
@@ -66,11 +66,11 @@ export default function Home() {
                 <Text fontFamily={'sans-serif'} fontSize={32}>The wallet that does not depend on cryptography for your security.</Text>
               </div>
               <div className={styles.downloadButton}>
-                <button>
+                <button onClick={() => window.location.replace('https://twitter.com/patjaival')}>
                   <div style={{display: 'flex'}}>
-                    <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Download for </Text>
+                    <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Reach Out</Text>
                     <div style={{marginLeft:'10px', fontSize:'40px', marginTop:'1px'}}>
-                     <AiOutlineChrome />
+                     <AiOutlineTwitter />
                     </div>
                   </div>
                 </button>
@@ -161,10 +161,17 @@ export default function Home() {
 
           <div className={styles.videoBox}>
             <Center>
-              <div style={{padding: '10px', color:'black'}}>
-                <Text as='b' fontFamily={'sans-serif'} fontSize={50}>Walkthrough</Text>
+              <div style={{padding: '10px', color:'black', marginBottom:'-20px'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={50}>Beta Walkthrough</Text>
+
               </div>
 
+
+            </Center>
+            <Center>
+              <div style={{padding: '10px', color:'#6D6875', marginBottom: '20px'}}>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={18}>Note: "Amount in USD" conversion feature is now live :) as upon Sept 4th 12:00 AM EST</Text>
+              </div>
             </Center>
             <Center>
               <div style={{height:'600px', width:'1300px', border: '2px solid black'}}>
@@ -231,18 +238,21 @@ export default function Home() {
             <div style={{padding: '30px', marginTop: '60px', marginBottom:'200px'}}>
 
               <div style={{textAlign:'center'}}>
-                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Download For Any Browser that Supports Chrome Extensions.</Text>
+                <Text as='b' fontFamily={'sans-serif'} fontSize={40}>Currently in private Send me a message on Twitter to get on onboard!</Text>
               </div>
 
               <Center>
               <div className={styles.downloadButton}>
-                <button>
+                <button onClick={() => window.location.replace('https://twitter.com/patjaival')}>
                   <div style={{display: 'flex'}}>
-                    <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Download for </Text>
-                    <div style={{marginLeft:'10px', fontSize:'40px', marginTop:'1px'}}>
-                     <AiOutlineChrome />
-                    </div>
+
+                      <Text as='b' fontFamily={'sans-serif'} fontSize={30}>Reach Out</Text>
+                      <div style={{marginLeft:'10px', fontSize:'40px', marginTop:'1px'}}>
+                      <AiOutlineTwitter />
+                      </div>
+                    
                   </div>
+                  
                 </button>
               </div>
               </Center>
@@ -274,21 +284,23 @@ export default function Home() {
                     <Text fontFamily={'sans-serif'} fontSize={20}>Discover</Text>
                   </div>
                   <Text fontFamily={'sans-serif'} fontSize={20}>Docs</Text>
-                  <Text fontFamily={'sans-serif'} fontSize={20}>Download</Text>
+                  <button onClick={() => window.location.replace('https://twitter.com/patjaival')}>
+                    <Text fontFamily={'sans-serif'} fontSize={20}>Onboard</Text>
+                  </button>
                 </VStack>
                 <HStack>
                   <div style={{fontSize:'40px'}}>
-                    <button>
+                    <button onClick={() => window.location.replace('g.jaivalpatel.com')}>
                       <AiFillGithub />
                     </button>
                   </div>
                   <div style={{fontSize:'40px'}}>
-                    <button>
+                    <button onClick={() => window.location.replace('https://twitter.com/patjaival')}>
                       <AiOutlineTwitter />
                     </button>
                   </div>
                   <div style={{fontSize:'40px'}}>
-                    <button>
+                    <button onClick={() => window.location.replace('l.jaivalpatel.com')}>
                       <AiFillLinkedin />
                     </button>
                   </div>
